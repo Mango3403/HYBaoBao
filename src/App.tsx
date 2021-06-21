@@ -16,7 +16,7 @@ const App = () => {
   return (
     <WebView
       originWhitelist={['*']}
-      source={{uri: 'https://www.zwzapp.com/dispatch.com'}}
+      source={{uri: 'https://www.zwzapp.com/dispatch.html'}}
     />
   );
 };
